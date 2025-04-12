@@ -1,0 +1,304 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color:#D1DCE2;
+}
+
+header{
+   height: 80px; 
+   background-color: black;
+   margin: 0px;
+}
+
+.topnav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 90px;
+        background: #000;
+        z-index: 99999;
+    }
+    .topnav-wrapper {
+        width: 950px;
+        margin: 0 auto;
+        padding-top: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+    .topnav ul li {
+        display: inline-block;
+        padding: 0 32px;
+        border-right: 1px solid #999;
+    }
+    .topnav ul li.last {
+        border-right: none;
+    }
+    .topnav ul li a {
+        padding: 0 10px;
+        text-decoration: none;
+        font-family: 'OpenSansCondensed', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #ffffff;
+        opacity: 1;
+    }
+    .topnav ul li a:hover,
+    .topnav ul li a.active {
+        opacity: 0.6;
+    }
+    .topnav-home a {
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        width: 16px;
+        height: 14px;
+        background: url('https://eurotrucksimulator2.com/images/icon-home.png') center bottom no-repeat;
+    }
+    .topnav-home a span {
+        display: none;
+    }
+    .navi-hide-checkbox {
+        display: none;
+    }
+    .hidehome {
+        display: none;
+    }
+
+
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.logo{
+    position: absolute;
+    top:200px;
+    left: 50%;
+}
+
+.steam{
+    position: absolute;
+    top:430px;
+    left:50%;
+}
+
+.image{
+    width: 100%;
+}
+
+.image_2{
+    width: 110%;
+    margin-left: -7%;
+    
+}
+.image_3{
+    width: 110%;
+    margin-left: -4%;
+    margin-top: -12%; 
+}
+
+
+.welcome-text {
+    position: absolute;
+    right: -72px;
+    top: 1200px;
+    width: 412px;
+    height: 710px;
+    background: url('https://eurotrucksimulator2.com/images/home-text-welcome.png') left top no-repeat;
+    z-index: 999;
+}
+
+.welcome-text-title {
+    width: 305px;
+    height: 206px;
+    position: relative;
+    padding-left: 39px;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: -1px;
+}
+
+.welcome-text-title h1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.welcome-text-content {
+    width: 305px;
+    margin: 40px 0 0 40px;
+}
+
+.welcome-text-content p {
+    margin-bottom: 30px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.welcome-text-content ul li a.btn {
+    display: block;
+    width: 230px;
+    margin: 0 0 10px 0;
+    padding: 0 10px 0 40px;
+    text-decoration: none;
+    font-family: 'OpenSansCondensed', sans-serif;
+    color: #FFF;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: red;
+}
+
+.welcome-text-content ul li a.btn span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-left: 2px solid #FFF;
+}
+
+.welcome-text-content ul li a.btn-buy {
+    background: #00BB5B url('https://eurotrucksimulator2.com/images/icon-buy.png') 10px center no-repeat;
+}
+
+.welcome-text-content ul li a.btn-download {
+    background: #2D7CB3 url('https://eurotrucksimulator2.com/images/icon-download.png') 10px center no-repeat;
+}
+
+.welcome-text-content ul li a.btn:hover {
+    opacity: .7;
+}
+
+
+
+.award-container {
+    background-color: #f0f5f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.award-info h1 {
+    font-size: 36px;
+    color: #1a2c39;
+    font-weight: bold;
+}
+
+.award-info p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.award-name p {
+    font-size: 20px;
+    color: #1a2c39;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.award1{
+    position: relative;
+    top:-350px;
+    left: -400px;
+}
+
+.quote {
+    font-size: 20px;
+    color: #1a2c39;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+
+.footer {
+    padding-top: 45px;
+}
+
+.footer.footer-pt0 {
+    padding-top: 0px;
+}
+
+.footer-bottom {
+    width: 100%;
+    background: #000;
+}
+
+.footer-socials {
+    width: 950px;
+    margin: 0 auto 12px auto;
+    overflow: hidden;
+}
+
+.footer-socials a {
+    float: left;
+    display: block;
+    width: 154px;
+    height: 114px;
+    margin-right: 5px;
+    background: red;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'OpenSansCondensed', sans-serif;
+}
+
+.footer-socials a:hover {
+    opacity: .7;
+}
+
+.footer-socials a strong {
+    display: block;
+    margin: 40px 0 0 16px;
+    font-size: 32px;
+}
+
+.footer-socials a span {
+    display: block;
+    font-weight: 100;
+    margin: 5px 0 0 16px;
+    font-size: 12px;
+}
+
+a.footer-steam {
+    background: url('https://eurotrucksimulator2.com/images/steam.png') left top no-repeat;
+}
+
+a.footer-facebook {
+    background: url('https://eurotrucksimulator2.com/images/facebook.png') left top no-repeat;
+}
+
+a.footer-youtube {
+    background: url('https://eurotrucksimulator2.com/images/youtube.png') left top no-repeat;
+}
+
+a.footer-x {
+    background: url('https://eurotrucksimulator2.com/images/x.png') left top no-repeat;
+}
+
+a.footer-instagram {
+    background: url('https://eurotrucksimulator2.com/images/instagram.png') left top no-repeat;
+}
+
+a.footer-worldoftrucks {
+    float: right;
+    margin-right: 0;
+    background: url('https://eurotrucksimulator2.com/images/worldoftrucks.png') left top no-repeat;
+}
+
+.footer--logo {
+	height: 67px;
+}
+
+
+.menu--logo {
+	position: fixed;
+    margin-top: -35px;
+    margin-left: -30px;
+	height: 67px;
+}
